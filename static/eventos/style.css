@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;  /* Para que o texto seja visível sobre o fundo preto */
+    font-family: 'Roboto', sans-serif; /* Define a fonte para o corpo todo */
+}
+#titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+}

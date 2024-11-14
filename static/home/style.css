@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;  /* Para que o texto seja visível sobre o fundo preto */
+    font-family: 'Roboto', sans-serif; /* Define a fonte para o corpo todo */
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex; /* Usando flexbox para organizar os itens */
+    justify-content: space-between; /* Espaço igual entre os dois elementos */
+    margin-top: 100px; /* Espaço acima dos elementos */
+    
+    padding-left: 80px;  /* Distância de 80px da esquerda */
+    padding-right: 80px; /* Distância de 80px da direita */
+    
+    width: calc(100% - 160px); /* A largura total é 100%, menos 160px (80px de cada lado) */
+    margin-left: auto; /* Centraliza o container na tela */
+    margin-right: auto; /* Centraliza o container na tela */
+}
+
+#eventos, #checkin {
+    font-size: 1.5em;
+    width: calc(50% - 20px); /* Ambos ocupam metade do espaço do container principal */
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #fdfdfd;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna, um embaixo do outro */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+a {
+    color: inherit; /* Usa a cor de texto herdada do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    color: inherit; /* Mantém a cor ao passar o mouse */
+}
+
+#eventos h1,
+#checkin h1 {
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o p */
+}
+
+#eventos p,
+#checkin p {
+    margin-top: 0; /* Remove qualquer margem extra, se houver */
+    font-size: 1em; /* Ajuste o tamanho da fonte, se necessário */
+}
